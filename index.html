@@ -36,6 +36,35 @@
             </div>
             <input value='Submit' type='button' onclick="showData()">
         </form>
+        <h2>Grade Average Calculator</h2>
+        <h3>Please Enter Your Grade For Each Quarter</h3>
+        <table BORDER=2>
+            <tr>
+                <td>Type</td>
+                <td>Grade</td>
+            </tr>
+            <tr>
+                <td>1st Quarter</td>
+                <td><input type="text" id="qtr1" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>2nd Quarter</td>
+                <td><input type="text" id="qtr2" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>3rd Quarter</td>
+                <td><input type="text" id="qtr3" size=2 value=""></td>
+            </tr>
+            <tr>
+                <td>4th Quarter</td>
+                <td><input type="text" id="qtr4" size=2 value=""></td>
+            </tr>
+        </table>
+        <input type="button" value="Calculate Your Grade"
+                onclick="calculator()">
+        <hr>
+        <h4 id="outputh4"></h4>
+        <h4 id='grade'></h4>
     </div>
     <script src='./js/scripts.js'></script>
 </body>

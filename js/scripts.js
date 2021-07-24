@@ -34,3 +34,40 @@ function showData() {
 // Line 27 = We are printing to the console a statement that includes the values that we have gathered
 // Line 28 = We are taking those same values that we gathered and now adding them along with some strings to an alert box that will pop up.
 // Line 29 = Ending of function showData instructions
+
+
+function calculator() {
+    var grade1=parseFloat(document.getElementById('qtr1').value);
+    var grade2=parseFloat(document.getElementById('qtr2').value);
+    var grade3=parseFloat(document.getElementById('qtr3').value);
+    var grade4=parseFloat(document.getElementById('qtr4').value);
+    var sum=grade1+grade2+grade3+grade4;
+    var total=sum/4
+    console.log("Grades entered", grade1, grade2, grade3, grade4)
+    console.log("Sum of all grades", sum)
+    console.log("The final total/average", total)
+    var display=document.getElementById('outputh4');
+    display.innerHTML='Your Final Grade Is: ' +total;
+    var color = document.querySelector('h4')
+    if (total >= 90) {
+        color.style.color = "green"
+    } else if (total >= 80) {
+        color.style.color = "orange"
+    } else if (total >= 70) {
+        color.style.color = 'red'
+    } else {
+        color.style.color = 'black'
+    }
+}
+
+// Line 39 = creating the function called calculator
+// Line 40-43 = creating the variables for the 4 grades to be entered by selecting them by their id and changing the format back to a integer from a string
+// Line 44 = creating the sum var and adding all the grades together
+// Line 45 = calculating the average in a var called total
+// 46-48 = Printing to the console all the grades, the sum and the final total
+// Line  49 = creating a var named display and selecting the h4 element
+// Line 50 = Adding to the h4 element the string and the final total
+// Line 51 = creating a var called color and selecting the same element
+// Line 52-59 = Creates a conditional that based on what the value of total is will change the text color
+// Line 60 = Ends our conditional
+// Line 61 = Ends our function
