@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel='stylesheet' href='./css/styles.css'>
+    <title>Bonus JS </title>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Bonus material webpage</h1>
+        <div id='mainMenu'>
+            <a href='javascript:void(0);' class='icon' onclick='menu()'>
+                <button>Menu</button>
+            </a>
+            <nav id='links'>
+                <a href='#'>Welcome</a>
+                <a href='#'>Posts</a>
+                <a href='#' target="_blank">Portfolio</a>
+                <a href='#'>Log In</a>
+            </nav>
+        </div>
+    </header>
+    <div id='main'>
+        <h2>Form</h2>
+        <form name='details'>
+            <div>
+                <label for='name'>Your Name: </label>
+                <input type='text' name='name'>
+            </div>
+            <div>
+                <label for='location'>Your Location:</label>
+                <input type='text' name='location'>
+            </div>
+            <input value='Submit' type='button' onclick="showData()">
+        </form>
+    </div>
+    <script src='./js/scripts.js'></script>
+</body>
+</html>

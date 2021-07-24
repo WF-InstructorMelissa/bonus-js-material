@@ -1,0 +1,21 @@
+#mainMenu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .icon {
+    color: black;
+    border: 3px solid white;
+    border-radius: 20%;
+    margin: .2em;
+    padding: .2em;
+    background-color: blue;
+} */
+nav {
+    display: none;
+}
+a {
+    color: black;
+    padding: 1.5em;
+}
