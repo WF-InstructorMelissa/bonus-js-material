@@ -10,3 +10,6 @@ It adds that logic that is needed so that other programs or our databases can ac
 
 ## Ok cool can we see some functions that are more than just a + b , things we will use in the real world?
 Ask no further, open up the html doc in your browser and have some fun...then look at the corresponding code, see what js function is actually working with each button.  I will have breakdowns of each function below them (commented out)
+
+
+A link to a video demonstrating the code contained = https://youtu.be/-CS47mzpo4o
